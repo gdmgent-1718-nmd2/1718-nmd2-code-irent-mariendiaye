@@ -6,43 +6,53 @@ permalink: /contact
 title: Contact
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-10 text-center">
-            <h3>Who are we ?</h3>
-            <p>‘Smartpeople” is een bedrijf die zich voornamelijk richt op de  werkende mens. Bij ’smartphone’ proberen we met initiatieven en ideeën naar voor te komen die dagelijkse taken makkelijker en sneller kunnen maken. </p>
+<div class="jumbotron jumbotron-fluid contact-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 text-center inleiding-background">
+                <h3>Who are we ?</h3>
+                <p class="inleiding">‘Smartpeople” is een bedrijf die zich voornamelijk richt op de  werkende mens. Bij ’smartphone’ proberen we met initiatieven en ideeën naar voor te komen die dagelijkse taken makkelijker en sneller kunnen maken. </p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-12">
-            <a>Facebook</a>
-            <a>Twitter</a>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 text-center social">
+                <a><img class="" alt="socialmedia"src=" {{ 'assets/images/facebook-8.png' | relative_url }}" ></a>
+                <a><img class="" alt="socialmedia"src=" {{ 'assets/images/twitter-8.png' | relative_url }}" ></a>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12">
+                    <img class="img-fluid "alt="smarterphone" src=" {{ 'assets/images/contact-phone.png' | relative_url }}">
+                    
+            </div>
+
         </div>
     </div>
 </div>
 <div class="jumbotron ">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-8 text-center">
+            <div class="col-12 col-sm-12 col-md-12 text-center">
                     <h1 class="titel-blog text-center">Contacteer ons</h1>
                     
-                    <form action="" id="contact-form">
-                        <div class="form-group row">
-                            <label for="email-input" class="col-form-label col-md-2">E-mailadres</label>
-                            <div class="col-10 col-sm-10 col-md-10">
-                                <input id="email-input" name="email" class="form-control" type="email" placeholder="name@example.org" required>
+                    <form action="" id="contact-form text-center" >
+                        <div class="form-group row ">
+                            
+                            <div class="col-12 col-sm-12 col-md-10">
+                                <input id="email-input" name="email" class="form-control" type="email" placeholder="xxx xx xx" required>
                                 <small class="form-control-feedback"></small>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="message-textarea" class="col-form-label col-md-2">Bericht</label>
-                            <div class="col-10 col-sm-10 col-md-10">
-                                <textarea id="message-textarea" class="form-control" name="message"minlength="3" required></textarea>
+                            
+                            <div class="col-12 col-sm-12 col-md-10">
+                                <textarea id="message-textarea" class="form-control" name="message"minlength="3" placeholder="Bericht" required></textarea>
                                 <small class="form-control-feedback"></small>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-2 col-sm-2 col-md-2">
-                                <button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane fa-fw mr-2"></i>Bericht versturen</button>
+                            <div class="col-2 col-sm-2 col-md-2 text-center">
+                                <button class="btn btn-secondary" type="submit"><i class="fa fa-paper-plane fa-fw mr-2"></i>Bericht versturen</button>
                             </div>
                         </div>
                     </form>

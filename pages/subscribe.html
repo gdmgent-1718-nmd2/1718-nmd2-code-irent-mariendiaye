@@ -8,20 +8,23 @@ title: Subscribe
 
 <div class="jumbotron jumbotron-fluid">
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-4">
+        <div class="col-12 col-sm-12 col-md-12 text-center">
+            <h3>Subscribe now !</h3>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 text-center offers">
             <h4> Flexible</h4>
             <p> Bepaal zelf de duur van je abonnement !</p>
-            <a> <button type="button" class="btn btn-secundary"> Kies nu</button></a>
+            <a href="{{ '/mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary"> Kies nu</button></a>
         </div>
-        <div class="col-12 col-sm-12 col-md-4">
+        <div class="col-12 col-sm-12 col-md-4 text-center offers">
             <h4> Monthly</h4>
             <p> Een maandelijks afzegbare abonnement</p>
-            <a> <button type="button" class="btn btn-secundary">Kies nu</button></a>
+            <a href="{{ 'mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary">Kies nu</button></a>
         </div>
-        <div class="col-12 col-sm-12 col-md-4">
+        <div class="col-12 col-sm-12 col-md-4 text-center offers">
             <h4> Annual</h4>
             <p> Een jaarlijks afzegbare abonnement</p>
-            <a> <button type="button" class="btn btn-secundary">Kies nu</button></a>
+            <a href="{{ 'mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary">Kies nu</button></a>
         </div>
     </div>
 </div>

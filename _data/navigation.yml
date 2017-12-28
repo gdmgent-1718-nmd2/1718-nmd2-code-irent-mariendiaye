@@ -1,0 +1,18 @@
+- title: Home
+  url: /index.html
+- title: About
+  url: /about
+  sublinks:
+    - title: About
+      url: /about
+    - title: Technologie
+      url: /about/technologie.html
+    - title: Services
+      url: /about/services.html
+- title: Contact
+  url: /contact.html
+- title: Subscribe
+  url: /subscribe.html
+- title: Abonnementen
+  url: /abonnementen.html
+

@@ -14,26 +14,29 @@ title: Abonnementen
     </div>
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6">
-            <h4>Een abonnement die perfect bij je past !</h4>
+            <h4 class="abonnement-header">Een abonnement die perfect bij je past !</h4>
         </div>
+        <div class="col-12 col-sm-12 col-md-6">
+                <img class="img-fluid " src=" {{ 'assets/images/abonementen-header.png' | relative_url }}" alt="" >
+            </div>
     </div>
 
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-4">
-            <h4> Flexible</h4>
-            <p> Bepaal zelf de duur van je abonnement !</p>
-            <a> <button type="button" class="btn btn-secondary"> Kies nu</button></a>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4">
+            <div class="col-12 col-sm-12 col-md-4 text-center offers">
+                <h4> Flexible</h4>
+                <p> Bepaal zelf de duur van je abonnement !</p>
+                <a href="{{ 'mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary"> Kies nu</button></a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 text-center offers">
                 <h4> Monthly</h4>
                 <p> Een maandelijks afzegbare abonnement</p>
-                <a> <button type="button" class="btn btn-secondary">Kies nu</button></a>
+                <a href="{{ 'mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary">Kies nu</button></a>
             </div>
-        <div class="col-12 col-sm-12 col-md-4">
+            <div class="col-12 col-sm-12 col-md-4 text-center offers">
                 <h4> Annual</h4>
                 <p> Een jaarlijks afzegbare abonnement</p>
-                <a> <button type="button" class="btn btn-secondary">Kies nu</button></a>
+                <a href="{{ 'mijnabonnement' | relative_url }}"> <button type="button" class="btn btn-secondary">Kies nu</button></a>
+            </div>
         </div>
-    </div>
 </div>
 

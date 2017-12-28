@@ -1,0 +1,105 @@
+/* ALGEMEEN */
+
+
+.jumbotron{
+    background: none;    
+}
+
+.btn-secondary{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+h3, h2, h1, h4 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3{
+    margin-top: 10%;
+
+}
+ p{
+    padding-bottom: 10px;
+    
+    line-height: 2em;
+ }
+ .inleiding{
+     padding-left:10%;
+     padding-right: 10%; 
+ }
+
+ .breadcrumb{
+     background: none;
+     font-size: 10px;
+ }
+ /* NAV */
+ .navbar{
+     background:none;
+ }
+
+/* HOME */
+.header-home{
+    background-image: url('../../assets/images/header-home-back.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ABOUT */
+
+.about-body{
+    background-image: url('../../assets/images/about_background-8.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accesories{
+    margin-top: 200px;
+}
+
+/* CONTACT */
+
+.contact-body{
+    background-image: url('../../assets/images/contact_back.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inleiding-background{
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.social{
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.offers{
+    padding: 50px;
+    
+    
+}
+
+/* SERVICES */
+.services-background{
+    background-image: url('../../assets/images/basisback.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.services-header-img{
+    
+}
+
+/* ABONNEMENTEN */
+h4 .abonnement-header{
+    padding-left: 100px;
+}
+
+
+
+
+
+

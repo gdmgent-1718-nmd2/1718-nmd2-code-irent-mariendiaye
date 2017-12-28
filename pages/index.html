@@ -3,12 +3,12 @@ layout   : default
 permalink: /
 # Custom Page Variables
 # ─────────────────────
-title: Home
+title: home
 ---
-<div class="jumbotron">
+<div class="jumbotron header-home">
     <div class="row">
         <div class="col-12 text-center">
-            <a><button type="button" class="btn btn-secondary">Reserveer !</button></a>
+            <img class="img-fluid "alt="smarterphone" src=" {{ 'assets/images/phone-home.png' | relative_url }}">
         </div>
     </div>
 </div>
@@ -17,7 +17,15 @@ title: Home
         <div class="col-12 text-center">
             <h3 class="">Introducing</h3>
             <h2 class="">'The SmarterPhone'</h2>
-            <button type="button" class="btn btn-outline-secondary"><a href="">See More</a></button>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 text-center">
+                <button type="button" class="btn btn-secondary"><a href="{{ 'subscribe.html' | relative_url }}">Ontdek nu </a></button>
+        </div>
+        <div class="col-12 col-sm-12ccol-md-6 text-center">
+                <button type="button" class="btn btn-secondary"><a href="{{ 'about.html' | relative_url }}">See More</a></button>
         </div>
     </div>
 </div>
